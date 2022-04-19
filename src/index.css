@@ -1,13 +1,48 @@
-body {
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #ee9520;
+  color: black;
+  line-height: 1.6;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column ;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+} /* */
+
+/* .container{
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+} */
+
+
+.card{
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
 }
+
+
+
+/* .btn{
+  color: rgb(12,11,11);
+  border: 0;
+  border-radius: 18px;
+  color: rgb(7,7,7);
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+} */
